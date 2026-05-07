@@ -40,3 +40,19 @@ export type { SkeletonProps, SkeletonVariant, SkeletonRadius } from '@akong/skel
 
 // === Icons (封装 lucide · 30 个) ===
 export * from '@akong/icons'
+
+// === Chat (聊天场景 5 件套) ===
+export { ChatBubble } from '@akong/chat-bubble'
+export type { ChatBubbleProps, ChatBubbleRole, ChatBubbleVariant, ChatBubbleStatus } from '@akong/chat-bubble'
+
+export { ChatInput } from '@akong/chat-input'
+export type { ChatInputProps } from '@akong/chat-input'
+
+export { TypingIndicator } from '@akong/typing-indicator'
+export type { TypingIndicatorProps } from '@akong/typing-indicator'
+
+export { ConversationItem } from '@akong/conversation-item'
+export type { ConversationItemProps } from '@akong/conversation-item'
+
+export { ChatLayout } from '@akong/chat-layout'
+export type { ChatLayoutProps } from '@akong/chat-layout'

@@ -33,7 +33,12 @@
     "@akong/agent-switcher": "github:yarnovo/akong-agent-switcher",
     "@akong/avatar": "github:yarnovo/akong-avatar",
     "@akong/lazy-image": "github:yarnovo/akong-lazy-image",
-    "@akong/skeleton": "github:yarnovo/akong-skeleton"
+    "@akong/skeleton": "github:yarnovo/akong-skeleton",
+    "@akong/chat-bubble": "github:yarnovo/akong-chat-bubble",
+    "@akong/chat-input": "github:yarnovo/akong-chat-input",
+    "@akong/typing-indicator": "github:yarnovo/akong-typing-indicator",
+    "@akong/conversation-item": "github:yarnovo/akong-conversation-item",
+    "@akong/chat-layout": "github:yarnovo/akong-chat-layout"
   },
   "devDependencies": {
     "@types/react": "^19.2.14",

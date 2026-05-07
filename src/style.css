@@ -16,4 +16,10 @@
 @import "@akong/skeleton/style.css";
 @import "@akong/icons/style.css";
 
+@import "@akong/chat-bubble/style.css";
+@import "@akong/chat-input/style.css";
+@import "@akong/typing-indicator/style.css";
+@import "@akong/conversation-item/style.css";
+@import "@akong/chat-layout/style.css";
+
 @import "@akong/tokens/style.dark.css";
