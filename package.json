@@ -14,13 +14,17 @@
     "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
-    "react": ">=18"
+    "react": ">=18",
+    "lucide-react": "^1.0.0"
   },
   "peerDependenciesMeta": {
-    "react-native": { "optional": true }
+    "react-native": { "optional": true },
+    "lucide-react-native": { "optional": true },
+    "react-native-svg": { "optional": true }
   },
   "dependencies": {
     "@akong/tokens": "github:yarnovo/akong-tokens",
+    "@akong/icons": "github:yarnovo/akong-icons",
     "@akong/button": "github:yarnovo/akong-button",
     "@akong/note-card": "github:yarnovo/akong-note-card",
     "@akong/bottom-nav": "github:yarnovo/akong-bottom-nav",
@@ -33,6 +37,7 @@
   },
   "devDependencies": {
     "@types/react": "^19.2.14",
+    "lucide-react": "^1.14.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "react-native": "^0.85.3",

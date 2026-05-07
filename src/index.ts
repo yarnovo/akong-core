@@ -37,3 +37,6 @@ export type { LazyImageProps } from '@akong/lazy-image'
 
 export { Skeleton } from '@akong/skeleton'
 export type { SkeletonProps, SkeletonVariant, SkeletonRadius } from '@akong/skeleton'
+
+// === Icons (封装 lucide · 30 个) ===
+export * from '@akong/icons'
