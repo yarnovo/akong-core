@@ -1,0 +1,18 @@
+/* @akong/core · 一行引全套样式
+ *
+ * 顺序: tokens 先 (定义 var(--ak-*)) → 各组件 css (用 var())
+ * 暗色覆盖最后 (.dark / [data-theme=dark] / prefers-color-scheme)
+ */
+
+@import "@akong/tokens/style.css";
+@import "@akong/button/style.css";
+@import "@akong/note-card/style.css";
+@import "@akong/bottom-nav/style.css";
+@import "@akong/service-card/style.css";
+@import "@akong/top-tabs/style.css";
+@import "@akong/agent-switcher/style.css";
+@import "@akong/avatar/style.css";
+@import "@akong/lazy-image/style.css";
+@import "@akong/skeleton/style.css";
+
+@import "@akong/tokens/style.dark.css";
