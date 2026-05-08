@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>akong design system · 阿空设计系统</title>
+<style>
+  :root {
+    --bg: #fcfcfc;
+    --bg-elevated: #ffffff;
+    --bg-subtle: #f5f5f5;
+    --fg: #181818;
+    --fg-muted: #6e6e73;
+    --fg-subtle: #a0a0a3;
+    --border: #efeff0;
+    --accent: #e8456a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1c1c;
+      --bg-elevated: #242424;
+      --bg-subtle: #1f1f1f;
+      --fg: #f0f0f0;
+      --fg-muted: #909090;
+      --fg-subtle: #6a6a6a;
+      --border: #2c2c2c;
+      --accent: #f4a8b6;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    margin: 0;
+    padding: 32px 20px 64px;
+    max-width: 880px;
+    margin-inline: auto;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  header { margin-bottom: 32px; }
+  h1 { font-size: 32px; margin: 0 0 6px; letter-spacing: -0.018em; font-weight: 700; }
+  .tagline { color: var(--fg-muted); font-size: 15px; margin: 0; }
+  h2 { font-size: 18px; margin: 36px 0 12px; letter-spacing: -0.012em; font-weight: 600; }
+  p { color: var(--fg-muted); font-size: 14px; margin: 0 0 16px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    font-size: 14px;
+  }
+  th, td {
+    text-align: left;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th { font-weight: 600; background: var(--bg-subtle); color: var(--fg-muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
+  tbody tr:last-child td { border-bottom: none; }
+  td.name code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; background: var(--bg-subtle); padding: 2px 6px; border-radius: 4px; }
+  td.desc { color: var(--fg-muted); font-size: 13px; }
+  td.links { white-space: nowrap; }
+  td.links a { margin-right: 12px; font-size: 13px; }
+  td.links a:last-child { margin-right: 0; }
+  .group { margin-top: 28px; }
+  .group-title { font-size: 13px; color: var(--fg-subtle); margin: 0 0 8px; text-transform: uppercase; letter-spacing: 0.06em; }
+  footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--fg-subtle); font-size: 13px; }
+  .install code { display: block; padding: 12px 14px; background: var(--bg-subtle); border-radius: 8px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; color: var(--fg); }
+</style>
+</head>
+<body>
+<header>
+  <h1>akong design system</h1>
+  <p class="tagline">阿空设计系统 · 跨端 (Web + React Native) · 一组件一仓 · 类 antd / shadcn</p>
+</header>
+
+<section>
+  <h2>一行接入</h2>
+  <div class="install">
+    <code>npm i github:yarnovo/akong-core</code>
+  </div>
+  <p style="margin-top: 12px;">
+    <code style="font-family: ui-monospace, monospace; font-size: 13px;">import &#123; Button, NoteCard, ChatLayout &#125; from '@akong/core'</code>
+  </p>
+</section>
+
+<section class="group">
+  <h2>设计基石</h2>
+  <p class="group-title">tokens / icons</p>
+  <table>
+    <thead><tr><th>组件</th><th>说明</th><th>链接</th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="name"><code>@akong/tokens</code></td>
+        <td class="desc">color / spacing / radius / typography 设计 tokens · CSS variables + JS object</td>
+        <td class="links"><a href="https://yarnovo.github.io/akong-tokens/">demo</a><a href="https://github.com/yarnovo/akong-tokens">github</a></td>
+      </tr>
+      <tr>
+        <td class="name"><code>@akong/icons</code></td>
+        <td class="desc">封装 lucide-react · antd 风 props (size / spin / rotate / strokeWidth)</td>
+        <td class="links"><a href="https://yarnovo.github.io/akong-icons/">demo</a><a href="https://github.com/yarnovo/akong-icons">github</a></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="group">
+  <h2>通用组件</h2>
+  <p class="group-title">shell / form / data display</p>
+  <table>
+    <thead><tr><th>组件</th><th>说明</th><th>链接</th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="name"><code>@akong/button</code></td>
+        <td class="desc">按钮 · primary / secondary / ghost · sm / md / lg · loading / disabled</td>
+        <td class="links"><a href="https://yarnovo.github.io/akong-button/">demo</a><a href="https://github.com/yarnovo/akong-button">github</a></td>
+      </tr>
+      <tr>
+        <td class="name"><code>@akong/avatar</code></td>
+        <td class="desc">头像 · 图片 / 文字 fallback · sm / md / lg / xl</td>
+        <td class="links"><a href="https://yarnovo.github.io/akong-avatar/">demo</a><a href="https://github.com/yarnovo/akong-avatar">github</a></td>
+      </tr>
+      <tr>
+        <td class="name"><code>@akong/lazy-image</code></td>
+        <td class="desc">懒加载图 · IntersectionObserver · skeleton 占位 · objectFit / aspectRatio</td>
+        <td class="links"><a href="https://yarnovo.github.io/akong-lazy-image/">demo</a><a href="https://github.com/yarnovo/akong-lazy-image">github</a></td>
+      </tr>
+      <tr>
+        <td class="name"><code>@akong/skeleton</code></td>
+        <td class="desc">骨架屏 · pulse 动画 · 自由尺寸 + radius</td>
+        <td class="links"><a href="https://yarnovo.github.io/akong-skeleton/">demo</a><a href="https://github.com/yarnovo/akong-skeleton">github</a></td>
+      </tr>
+      <tr>
+        <td class="name"><code>@akong/note-card</code></td>
+        <td class="desc">笔记卡 · 小红书风瀑布流卡片 · 封面 + 标题 + 作者 + 点赞</td>
+        <td class="links"><a href="https://yarnovo.github.io/akong-note-card/">demo</a><a href="https://github.com/yarnovo/akong-note-card">github</a></td>
+      </tr>
+      <tr>
+        <td class="name"><code>@akong/service-card</code></td>
+        <td class="desc">商品卡 · 服务包展示 · 价格 + 标题 + SLA + 模式 (AI/真人/协作)</td>
+        <td class="links"><a href="https://yarnovo.github.io/akong-service-card/">demo</a><a href="https://github.com/yarnovo/akong-service-card">github</a></td>
+      </tr>
+      <tr>
+        <td class="name"><code>@akong/bottom-nav</code></td>
+        <td class="desc">底部导航 · sticky 贴底 · safe-area · primary 中间凸起按钮</td>
+        <td class="links"><a href="https://yarnovo.github.io/akong-bottom-nav/">demo</a><a href="https://github.com/yarnovo/akong-bottom-nav">github</a></td>
+      </tr>
+      <tr>
+        <td class="name"><code>@akong/top-tabs</code></td>
+        <td class="desc">顶部 tabs · sticky 贴顶 · 模糊背景 · safe-area</td>
+        <td class="links"><a href="https://yarnovo.github.io/akong-top-tabs/">demo</a><a href="https://github.com/yarnovo/akong-top-tabs">github</a></td>
+      </tr>
+      <tr>
+        <td class="name"><code>@akong/agent-switcher</code></td>
+        <td class="desc">数字角色切换器 · drawer 抽屉 · 多角色列表</td>
+        <td class="links"><a href="https://yarnovo.github.io/akong-agent-switcher/">demo</a><a href="https://github.com/yarnovo/akong-agent-switcher">github</a></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="group">
+  <h2>聊天系列</h2>
+  <p class="group-title">chat · 对话场景专用</p>
+  <table>
+    <thead><tr><th>组件</th><th>说明</th><th>链接</th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="name"><code>@akong/chat-layout</code></td>
+        <td class="desc">聊天页布局 · header + main 滚动区 + footer · 自动滚到底 · 顶部加载更多</td>
+        <td class="links"><a href="https://yarnovo.github.io/akong-chat-layout/">demo</a><a href="https://github.com/yarnovo/akong-chat-layout">github</a></td>
+      </tr>
+      <tr>
+        <td class="name"><code>@akong/chat-bubble</code></td>
+        <td class="desc">气泡消息 · user / assistant 双向 · 多行换行 · 时间戳</td>
+        <td class="links"><a href="https://yarnovo.github.io/akong-chat-bubble/">demo</a><a href="https://github.com/yarnovo/akong-chat-bubble">github</a></td>
+      </tr>
+      <tr>
+        <td class="name"><code>@akong/chat-input</code></td>
+        <td class="desc">聊天输入框 · 自适应行高 · iOS 软键盘补偿 · slot 扩展位</td>
+        <td class="links"><a href="https://yarnovo.github.io/akong-chat-input/">demo</a><a href="https://github.com/yarnovo/akong-chat-input">github</a></td>
+      </tr>
+      <tr>
+        <td class="name"><code>@akong/typing-indicator</code></td>
+        <td class="desc">"正在输入"动画 · 3 点起伏 · 可独立 / 嵌气泡</td>
+        <td class="links"><a href="https://yarnovo.github.io/akong-typing-indicator/">demo</a><a href="https://github.com/yarnovo/akong-typing-indicator">github</a></td>
+      </tr>
+      <tr>
+        <td class="name"><code>@akong/conversation-item</code></td>
+        <td class="desc">会话列表项 · 头像 + 名字 + 末条 + 时间 + 未读 badge</td>
+        <td class="links"><a href="https://yarnovo.github.io/akong-conversation-item/">demo</a><a href="https://github.com/yarnovo/akong-conversation-item">github</a></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="group">
+  <h2>聚合</h2>
+  <table>
+    <thead><tr><th>包</th><th>说明</th><th>链接</th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="name"><code>@akong/core</code></td>
+        <td class="desc">聚合包 · 一行 import 全套组件 · 类 antd 总入口</td>
+        <td class="links"><a href="https://github.com/yarnovo/akong-core">github</a></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<footer>
+  akong design system · 跨端 (Web + React Native) · 由 <a href="https://github.com/yarnovo">@yarnovo</a> 维护
+</footer>
+</body>
+</html>
