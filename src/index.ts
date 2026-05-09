@@ -1,58 +1,58 @@
 /**
- * @akong/core · 聚合包 · re-export 所有 akong 组件 + tokens
+ * @aily-ui/core · 聚合包 · re-export 所有 akong 组件 + tokens
  *
  * 用法:
- *   import { Button, NoteCard, BottomNav, Avatar, ... } from '@akong/core'
- *   import '@akong/core/style.css'   // 一行引全套样式 + tokens
+ *   import { Button, NoteCard, BottomNav, Avatar, ... } from '@aily-ui/core'
+ *   import '@aily-ui/core/style.css'   // 一行引全套样式 + tokens
  *
  * 跨端: Web 跟 RN 都自动 resolve 各自实现 (Metro .native.tsx)
  */
 
-export { tokens, lightTokens, darkTokens, cssVars } from '@akong/tokens'
-export type { Tokens, LightTokens, DarkTokens } from '@akong/tokens'
+export { tokens, lightTokens, darkTokens, cssVars } from '@aily-ui/tokens'
+export type { Tokens, LightTokens, DarkTokens } from '@aily-ui/tokens'
 
-export { Button } from '@akong/button'
-export type { ButtonProps, ButtonVariant, ButtonSize } from '@akong/button'
+export { Button } from '@aily-ui/button'
+export type { ButtonProps, ButtonVariant, ButtonSize } from '@aily-ui/button'
 
-export { NoteCard } from '@akong/note-card'
-export type { NoteCardProps } from '@akong/note-card'
+export { NoteCard } from '@aily-ui/note-card'
+export type { NoteCardProps } from '@aily-ui/note-card'
 
-export { BottomNav } from '@akong/bottom-nav'
-export type { BottomNavProps, BottomNavItem } from '@akong/bottom-nav'
+export { BottomNav } from '@aily-ui/bottom-nav'
+export type { BottomNavProps, BottomNavItem } from '@aily-ui/bottom-nav'
 
-export { ServiceCard } from '@akong/service-card'
-export type { ServiceCardProps, ServiceCardSeller } from '@akong/service-card'
+export { ServiceCard } from '@aily-ui/service-card'
+export type { ServiceCardProps, ServiceCardSeller } from '@aily-ui/service-card'
 
-export { TopTabs } from '@akong/top-tabs'
-export type { TopTabsProps } from '@akong/top-tabs'
+export { TopTabs } from '@aily-ui/top-tabs'
+export type { TopTabsProps } from '@aily-ui/top-tabs'
 
-export { AgentSwitcher } from '@akong/agent-switcher'
-export type { AgentSwitcherProps, AgentSwitcherItem } from '@akong/agent-switcher'
+export { AgentSwitcher } from '@aily-ui/agent-switcher'
+export type { AgentSwitcherProps, AgentSwitcherItem } from '@aily-ui/agent-switcher'
 
-export { Avatar } from '@akong/avatar'
-export type { AvatarProps, AvatarSize, AvatarShape } from '@akong/avatar'
+export { Avatar } from '@aily-ui/avatar'
+export type { AvatarProps, AvatarSize, AvatarShape } from '@aily-ui/avatar'
 
-export { LazyImage } from '@akong/lazy-image'
-export type { LazyImageProps } from '@akong/lazy-image'
+export { LazyImage } from '@aily-ui/lazy-image'
+export type { LazyImageProps } from '@aily-ui/lazy-image'
 
-export { Skeleton } from '@akong/skeleton'
-export type { SkeletonProps, SkeletonVariant, SkeletonRadius } from '@akong/skeleton'
+export { Skeleton } from '@aily-ui/skeleton'
+export type { SkeletonProps, SkeletonVariant, SkeletonRadius } from '@aily-ui/skeleton'
 
 // === Icons (封装 lucide · 30 个) ===
-export * from '@akong/icons'
+export * from '@aily-ui/icons'
 
 // === Chat (聊天场景 5 件套) ===
-export { ChatBubble } from '@akong/chat-bubble'
-export type { ChatBubbleProps, ChatBubbleRole, ChatBubbleVariant, ChatBubbleStatus } from '@akong/chat-bubble'
+export { ChatBubble } from '@aily-ui/chat-bubble'
+export type { ChatBubbleProps, ChatBubbleRole, ChatBubbleVariant, ChatBubbleStatus } from '@aily-ui/chat-bubble'
 
-export { ChatInput } from '@akong/chat-input'
-export type { ChatInputProps } from '@akong/chat-input'
+export { ChatInput } from '@aily-ui/chat-input'
+export type { ChatInputProps } from '@aily-ui/chat-input'
 
-export { TypingIndicator } from '@akong/typing-indicator'
-export type { TypingIndicatorProps } from '@akong/typing-indicator'
+export { TypingIndicator } from '@aily-ui/typing-indicator'
+export type { TypingIndicatorProps } from '@aily-ui/typing-indicator'
 
-export { ConversationItem } from '@akong/conversation-item'
-export type { ConversationItemProps } from '@akong/conversation-item'
+export { ConversationItem } from '@aily-ui/conversation-item'
+export type { ConversationItemProps } from '@aily-ui/conversation-item'
 
-export { ChatLayout } from '@akong/chat-layout'
-export type { ChatLayoutProps } from '@akong/chat-layout'
+export { ChatLayout } from '@aily-ui/chat-layout'
+export type { ChatLayoutProps } from '@aily-ui/chat-layout'
