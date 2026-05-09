@@ -1,5 +1,5 @@
 /**
- * @aily-ui/core · 聚合包 · re-export 所有 akong 组件 + tokens
+ * @aily-ui/core · 聚合包 · re-export 所有 aily-ui 组件 + tokens
  *
  * 用法:
  *   import { Button, NoteCard, BottomNav, Avatar, ... } from '@aily-ui/core'

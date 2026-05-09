@@ -1,7 +1,7 @@
 {
   "name": "@aily-ui/core",
   "version": "0.1.0",
-  "description": "akong design system 聚合包 · 一行 import 全套组件 (类 antd) · 跨端 (Web + RN)",
+  "description": "aily-ui design system 聚合包 · 一行 import 全套组件 (类 antd) · 跨端 (Web + RN)",
   "type": "module",
   "main": "./src/index.ts",
   "types": "./src/index.ts",
@@ -23,22 +23,22 @@
     "react-native-svg": { "optional": true }
   },
   "dependencies": {
-    "@aily-ui/tokens": "github:yarnovo/akong-tokens",
-    "@aily-ui/icons": "github:yarnovo/akong-icons",
-    "@aily-ui/button": "github:yarnovo/akong-button",
-    "@aily-ui/note-card": "github:yarnovo/akong-note-card",
-    "@aily-ui/bottom-nav": "github:yarnovo/akong-bottom-nav",
-    "@aily-ui/service-card": "github:yarnovo/akong-service-card",
-    "@aily-ui/top-tabs": "github:yarnovo/akong-top-tabs",
-    "@aily-ui/agent-switcher": "github:yarnovo/akong-agent-switcher",
-    "@aily-ui/avatar": "github:yarnovo/akong-avatar",
-    "@aily-ui/lazy-image": "github:yarnovo/akong-lazy-image",
-    "@aily-ui/skeleton": "github:yarnovo/akong-skeleton",
-    "@aily-ui/chat-bubble": "github:yarnovo/akong-chat-bubble",
-    "@aily-ui/chat-input": "github:yarnovo/akong-chat-input",
-    "@aily-ui/typing-indicator": "github:yarnovo/akong-typing-indicator",
-    "@aily-ui/conversation-item": "github:yarnovo/akong-conversation-item",
-    "@aily-ui/chat-layout": "github:yarnovo/akong-chat-layout",
+    "@aily-ui/tokens": "github:yarnovo/aily-ui-tokens",
+    "@aily-ui/icons": "github:yarnovo/aily-ui-icons",
+    "@aily-ui/button": "github:yarnovo/aily-ui-button",
+    "@aily-ui/note-card": "github:yarnovo/aily-ui-note-card",
+    "@aily-ui/bottom-nav": "github:yarnovo/aily-ui-bottom-nav",
+    "@aily-ui/service-card": "github:yarnovo/aily-ui-service-card",
+    "@aily-ui/top-tabs": "github:yarnovo/aily-ui-top-tabs",
+    "@aily-ui/agent-switcher": "github:yarnovo/aily-ui-agent-switcher",
+    "@aily-ui/avatar": "github:yarnovo/aily-ui-avatar",
+    "@aily-ui/lazy-image": "github:yarnovo/aily-ui-lazy-image",
+    "@aily-ui/skeleton": "github:yarnovo/aily-ui-skeleton",
+    "@aily-ui/chat-bubble": "github:yarnovo/aily-ui-chat-bubble",
+    "@aily-ui/chat-input": "github:yarnovo/aily-ui-chat-input",
+    "@aily-ui/typing-indicator": "github:yarnovo/aily-ui-typing-indicator",
+    "@aily-ui/conversation-item": "github:yarnovo/aily-ui-conversation-item",
+    "@aily-ui/chat-layout": "github:yarnovo/aily-ui-chat-layout",
     "@aily-ui/auth-login": "github:yarnovo/aily-ui-auth-login"
   },
   "devDependencies": {
@@ -52,7 +52,7 @@
   "publishConfig": { "access": "public" },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yarnovo/akong-core.git"
+    "url": "git+https://github.com/yarnovo/aily-ui-core.git"
   },
   "license": "UNLICENSED",
   "private": false
