@@ -1,25 +1,25 @@
-/* @akong/core · 一行引全套样式
+/* @aily-ui/core · 一行引全套样式
  *
  * 顺序: tokens 先 (定义 var(--ak-*)) → 各组件 css (用 var())
  * 暗色覆盖最后 (.dark / [data-theme=dark] / prefers-color-scheme)
  */
 
-@import "@akong/tokens/style.css";
-@import "@akong/button/style.css";
-@import "@akong/note-card/style.css";
-@import "@akong/bottom-nav/style.css";
-@import "@akong/service-card/style.css";
-@import "@akong/top-tabs/style.css";
-@import "@akong/agent-switcher/style.css";
-@import "@akong/avatar/style.css";
-@import "@akong/lazy-image/style.css";
-@import "@akong/skeleton/style.css";
-@import "@akong/icons/style.css";
+@import "@aily-ui/tokens/style.css";
+@import "@aily-ui/button/style.css";
+@import "@aily-ui/note-card/style.css";
+@import "@aily-ui/bottom-nav/style.css";
+@import "@aily-ui/service-card/style.css";
+@import "@aily-ui/top-tabs/style.css";
+@import "@aily-ui/agent-switcher/style.css";
+@import "@aily-ui/avatar/style.css";
+@import "@aily-ui/lazy-image/style.css";
+@import "@aily-ui/skeleton/style.css";
+@import "@aily-ui/icons/style.css";
 
-@import "@akong/chat-bubble/style.css";
-@import "@akong/chat-input/style.css";
-@import "@akong/typing-indicator/style.css";
-@import "@akong/conversation-item/style.css";
-@import "@akong/chat-layout/style.css";
+@import "@aily-ui/chat-bubble/style.css";
+@import "@aily-ui/chat-input/style.css";
+@import "@aily-ui/typing-indicator/style.css";
+@import "@aily-ui/conversation-item/style.css";
+@import "@aily-ui/chat-layout/style.css";
 
-@import "@akong/tokens/style.dark.css";
+@import "@aily-ui/tokens/style.dark.css";
