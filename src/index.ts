@@ -56,3 +56,14 @@ export type { ConversationItemProps } from '@aily-ui/conversation-item'
 
 export { ChatLayout } from '@aily-ui/chat-layout'
 export type { ChatLayoutProps } from '@aily-ui/chat-layout'
+
+// === Auth (登录场景) ===
+export { LoginFlow, PhoneInputStep, OtpInputStep } from '@aily-ui/auth-login'
+export type {
+  LoginFlowProps,
+  PhoneInputStepProps,
+  OtpInputStepProps,
+  LoginStep,
+  SendCodeResult,
+  VerifyCodeResult,
+} from '@aily-ui/auth-login'

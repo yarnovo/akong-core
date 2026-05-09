@@ -22,4 +22,6 @@
 @import "@aily-ui/conversation-item/style.css";
 @import "@aily-ui/chat-layout/style.css";
 
+@import "@aily-ui/auth-login/style.css";
+
 @import "@aily-ui/tokens/style.dark.css";

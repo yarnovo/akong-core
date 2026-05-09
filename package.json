@@ -38,7 +38,8 @@
     "@aily-ui/chat-input": "github:yarnovo/akong-chat-input",
     "@aily-ui/typing-indicator": "github:yarnovo/akong-typing-indicator",
     "@aily-ui/conversation-item": "github:yarnovo/akong-conversation-item",
-    "@aily-ui/chat-layout": "github:yarnovo/akong-chat-layout"
+    "@aily-ui/chat-layout": "github:yarnovo/akong-chat-layout",
+    "@aily-ui/auth-login": "github:yarnovo/aily-ui-auth-login"
   },
   "devDependencies": {
     "@types/react": "^19.2.14",
