@@ -66,3 +66,43 @@ import '@aily-ui/tokens/style.css'
 Web 自动跟系统 (`prefers-color-scheme: dark`) · 也支持手动 `<html class="dark">` 强制切。
 
 RN 用 `useColorScheme()` hook · 组件内部自动切 `tokens.light` ↔ `tokens.dark`。
+
+## 新 demo 站规约
+
+起新 aily-ui 组件仓 (`yarnovo/aily-ui-X`) · `demo/index.html` 必含:
+
+1. 右上角 `← 回 aily-ui 总站` link → https://yarnovo.github.io/aily-ui-core/
+2. 用 `var(--ak-*)` token · 不 hardcode 色
+3. light + dark 双模 (右上角 "切换暗色" 按钮)
+
+stack 排开（防 fixed 撞）:
+- top:16px right:16px → `← 回 aily-ui 总站` (新)
+- top:64px right:16px → `切换暗色` (旧)
+
+模板:
+
+```html
+<a href="https://yarnovo.github.io/aily-ui-core/" class="back-to-index">← 回 aily-ui 总站</a>
+```
+
+```css
+.back-to-index {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 100;
+  padding: 8px 16px;
+  background: var(--ak-bg-elevated);
+  border: 1px solid var(--ak-border-subtle);
+  border-radius: var(--ak-radius-full);
+  color: var(--ak-fg-muted);
+  text-decoration: none;
+  font-size: var(--ak-text-sm);
+  box-shadow: var(--ak-shadow-sm);
+  transition: all 0.2s;
+}
+.back-to-index:hover {
+  background: var(--ak-bg-hover);
+  color: var(--ak-fg);
+}
+```
