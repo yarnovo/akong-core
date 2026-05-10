@@ -43,7 +43,6 @@ import { Button } from '@aily-ui/core'
 | AgentSwitcher | [aily-ui-agent-switcher](https://github.com/yarnovo/aily-ui-agent-switcher) | [demo](https://yarnovo.github.io/aily-ui-agent-switcher/) |
 | Avatar | [aily-ui-avatar](https://github.com/yarnovo/aily-ui-avatar) | [demo](https://yarnovo.github.io/aily-ui-avatar/) |
 | AuthLogin | [aily-ui-auth-login](https://github.com/yarnovo/aily-ui-auth-login) | [demo](https://yarnovo.github.io/aily-ui-auth-login/) |
-| EmployeeCard | [aily-ui-employee-card](https://github.com/yarnovo/aily-ui-employee-card) | [demo](https://yarnovo.github.io/aily-ui-employee-card/) |
 | LazyImage | [aily-ui-lazy-image](https://github.com/yarnovo/aily-ui-lazy-image) | [demo](https://yarnovo.github.io/aily-ui-lazy-image/) |
 | Skeleton | [aily-ui-skeleton](https://github.com/yarnovo/aily-ui-skeleton) | [demo](https://yarnovo.github.io/aily-ui-skeleton/) |
 | Tokens | [aily-ui-tokens](https://github.com/yarnovo/aily-ui-tokens) | [demo](https://yarnovo.github.io/aily-ui-tokens/) |
