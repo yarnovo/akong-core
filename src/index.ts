@@ -2,7 +2,7 @@
  * @aily-ui/core · 聚合包 · re-export 所有 aily-ui 组件 + tokens
  *
  * 用法:
- *   import { Button, NoteCard, BottomNav, Avatar, ... } from '@aily-ui/core'
+ *   import { Button, BottomNav, Avatar, ... } from '@aily-ui/core'
  *   import '@aily-ui/core/style.css'   // 一行引全套样式 + tokens
  *
  * 跨端: Web 跟 RN 都自动 resolve 各自实现 (Metro .native.tsx)
@@ -14,20 +14,8 @@ export type { Tokens, LightTokens, DarkTokens } from '@aily-ui/tokens'
 export { Button } from '@aily-ui/button'
 export type { ButtonProps, ButtonVariant, ButtonSize } from '@aily-ui/button'
 
-export { NoteCard } from '@aily-ui/note-card'
-export type { NoteCardProps } from '@aily-ui/note-card'
-
 export { BottomNav } from '@aily-ui/bottom-nav'
 export type { BottomNavProps, BottomNavItem } from '@aily-ui/bottom-nav'
-
-export { ServiceCard } from '@aily-ui/service-card'
-export type { ServiceCardProps, ServiceCardSeller } from '@aily-ui/service-card'
-
-export { TopTabs } from '@aily-ui/top-tabs'
-export type { TopTabsProps } from '@aily-ui/top-tabs'
-
-export { AgentSwitcher } from '@aily-ui/agent-switcher'
-export type { AgentSwitcherProps, AgentSwitcherItem } from '@aily-ui/agent-switcher'
 
 export { Avatar } from '@aily-ui/avatar'
 export type { AvatarProps, AvatarSize, AvatarShape } from '@aily-ui/avatar'
